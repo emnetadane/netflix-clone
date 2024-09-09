@@ -1,23 +1,13 @@
-
-import './App.css'
-import Banner from './component/Banner/Banner'
-import Footer from './component/Footer/Footer'
-import Header from './component/Header/Header'
-import Rowlist from './component/Row/Rowlist'
+import Home from "./Pages/Home/Home";
 
 function App() {
-  
-
   return (
     <>
-      <div className='App'>
-        <Header/>
-        <Banner/>
-       <Rowlist/>
-        <Footer/>
+      <div className="App">
+        <Home />
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
